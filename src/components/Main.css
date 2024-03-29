@@ -1,0 +1,46 @@
+.main {
+  background-color: whitesmoke;
+  margin: 2rem 1rem;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.main .header h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: large;
+  font-weight: bold;
+}
+.header img {
+  height: 25px;
+  width: 25px;
+  opacity: 0.4;
+}
+.table-chart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+  .table-chart {
+    flex-direction: column;
+    overflow-x: scroll;
+  }
+}
+
+
+.chart-in img {
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ z-index: 99;
+ top: 55%;
+ left: 50%;
+ opacity: 1;
+}
